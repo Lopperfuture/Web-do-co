@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'cinzel', serif;
+}
+
+.header-section{
+    width: 100%;
+    height: 80vh;
+    background: url(images/background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-heading{
+    font-size: 100px;
+    text-transform: capitalize;
+    color: rgb(180, 17, 17);
+}
+
+.header-heading span{
+    color: #b60c0c;
+}
+
+    </style>
+    <link rel = "stylesheet" href="navbar.css">
+    <link rel = "stylesheet" href="homeproduct.css">
+    <link rel = "stylesheet" href="mid.css">
+    <link rel = "stylesheet" href="end.css">
+    <link rel = "stylesheet" href="home.js">
+    <link rel = "stylesheet" href="footer.css">
+    <link rel="stylesheet" type = "footer" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    
+    
+</head>
+<body>
+    <nav class="navbar">
+        <img src="images/logo2.jpg" class="brand-logo" alt="">
+        <ul class="links-container">
+            <li class="link-item"><a href="home.html" class="link active"> <p style = "color:black">Home</p></a></li></p>
+            <li class="link-item"><a href="product.html" class="link"> <p style = "color:black">Product</p></a></li>
+            <li class="link-item"><a href="news.html" class="link"> <p style = "color:black">News</p></a></li>
+            <li class="link-item"><a href="about.html" class="link"> <p style = "color:black">About</p></a></li>
+            <li class="link-item"><a href="contact.html" class="link"> <p style = "color:black">Contact</p></a></li>
+        </ul>
+        <div class = "search">
+        <input type="search" id="site-search" name="q">
+        <button>Search</button>
+        </div>
+        <div class="user-interactions">
+            <div class="user">
+               <a href = "login.html"> <img src="images/user-white.png" class="user-icon" alt=""></a>
+            </div>
+        </div>
+    </nav>
+    <header class="header-section">
+        <h1 class="header-heading"><span>Antiques And Arts</span> For Sale</h1>
+    </header>
+    <section class="best-selling-product-section">
+        <h1 class="section-title">best selling products</h1>
+        <div class="product-container">
+            <div class="product-card">
+                <a href = "bookcase.html"><img src="images/bookcase.jpeg" class="product-img" alt=""></a>
+                <p class="product-name"> 4 Door Mahogany Bookcase  → </p>
+            </div>
+            <div class="product-card">
+                <a href = "oak.html"><img src="images/oak.jpeg" class="product-img" alt=""></a>
+                <p class="product-name"> Antique Oak Mule Chest →</p>
+            </div>
+            <div class="product-card">
+                <a href = "settee.html"><img src="images/settee.jpeg" class="product-img" alt=""></a>
+                <p class="product-name"> Attractive Painted Victorian Settee →</p>
+            </div>
+            <div class="product-card">
+                <a href = "table.html"><img src="images/table.jpeg" class="product-img" alt=""></a>
+                <p class="product-name"> Antique Burr Walnut Coffee Table →</p>
+            </div>
+        </div>
+    </section>
+    <section class="mid-section">
+        <div class="section-item-container">
+            <img src="images/order.png" class="section-bg" alt="">
+            <div class="section-info">
+                <h1 class="title">Chào mừng đến <span>Sượng sách</span> </h1>
+                <p class="info">This is the place for antique advertising collectors, dealers and hobbyists to find actual prices and articles about antique advertising. 
+                    We specialize in antique advertising signs, trays, displays and related vintage smalls. <br>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="end-section">
+        <div class="section-item-container">
+            <img src="images/order.png" class="section-bg" alt="">
+            <div class="section-info">
+                <h1 class="title">Buy <span>Now</span></h1>
+                <p class="info">Buy anything you want</p>
+            </div>
+        </div>
+    </section> <br>
+    <div class="footer">
+        <footer>
+            <div class="social">
+                <a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a>
+                <a href="https://www.snapchat.com/vi-VN"><i class="icon ion-social-snapchat"></i></a>
+                <a href="https://twitter.com/home?lang=vi"><i class="icon ion-social-twitter"></i></a>
+                <a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="home.html">Home</a></li>
+                <li class="list-inline-item"><a href="product.html">Product</a></li>
+                <li class="list-inline-item"><a href="about.html">About</a></li>
+                <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+            </ul>
+            <p class="bottomfooter">Made by BKC12302</p>
+        </footer>
+    </div>
+</body>
+</html>

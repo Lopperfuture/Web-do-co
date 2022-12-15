@@ -1,0 +1,9 @@
+.end-section .section-info{
+    margin: 0;
+}
+
+.end-section .title{
+    font-size: 100px;
+    line-height: 150px;
+    margin: 50px;
+}

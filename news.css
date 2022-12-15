@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+  .header {
+    padding: 40px;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+  }
+  
+  .column {   
+    width: 100%;
+  }
+  
+  .card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

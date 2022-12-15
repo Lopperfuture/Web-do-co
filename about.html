@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #000000;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+    </style>
+    <link rel = "stylesheet" href="navbar.css">
+    <link rel = "stylesheet" href="footer.css">
+    <link rel="stylesheet" type = "footer" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+    <nav class="navbar">
+      <img src="images/logo2.jpg" class="brand-logo" alt="">
+        <ul class="links-container">
+            <li class="link-item"><a href="home.html" class="link active"> <p style = "color:black">Home</p></a></li></p>
+            <li class="link-item"><a href="product.html" class="link"> <p style = "color:black">Product</p></a></li>
+            <li class="link-item"><a href="news.html" class="link"> <p style = "color:black">News</p></a></li>
+            <li class="link-item"><a href="about.html" class="link"> <p style = "color:black">About</p></a></li>
+            <li class="link-item"><a href="contact.html" class="link"> <p style = "color:black">Contact</p></a></li>
+        </ul>
+        <div class = "search">
+          <input type="search" id="site-search" name="q">
+          <button>Search</button>
+          </div>
+        <div class="user-interactions">
+          <div class="user">
+            <a href = "login.html"> <img src="images/user-white.png" class="user-icon" alt=""></a>
+          </div>
+      </div>
+    </nav>
+    <div class="about-section">
+        <h1>About Us </h1>
+        <p>Our shop offers you a place to see thousands of 'genuine antiques from trusted dealers'. Browse and purchase with confidence as our friendly antique dealers will be more than happy to help with any questions on listed items.</p>
+        <p>Our shop prides itself on offering some of the best antiques and decorative items on the internet.</p>
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="images/man1.jpeg" alt="Dan" style="width:100%">
+            <div class="container">
+              <h2>Dan Smith</h2>
+              <p class="title">Founder</p>
+              <p>Our CEO and Founder of the company</p>
+              <p>Dan@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="images/man2.jpg" alt="Luke" style="width:100%">
+            <div class="container">
+              <h2>Luke Reese</h2>
+              <p class="title">Art Director</p>
+              <p>Our Art Director</p>
+              <p>Luke@gmail.com</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="images/woman2.jpeg" alt="Suzy" style="width:100%">
+            <div class="container">
+              <h2>Suzy Greenfield</h2>
+              <p class="title">Designer</p>
+              <p>Our Designer</p>
+              <p>Suzy@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <footer>
+            <div class="social">
+              <a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a>
+              <a href="https://www.snapchat.com/vi-VN"><i class="icon ion-social-snapchat"></i></a>
+              <a href="https://twitter.com/home?lang=vi"><i class="icon ion-social-twitter"></i></a>
+              <a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="home.html">Home</a></li>
+                <li class="list-inline-item"><a href="product.html">Product</a></li>
+                <li class="list-inline-item"><a href="about.html">About</a></li>
+                <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+            </ul>
+            <p class="bottomfooter">Made by BKC12302</p>
+        </footer>
+</body>
+</html>
